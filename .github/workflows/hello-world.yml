@@ -19,7 +19,7 @@ jobs:
         run: echo "Hello GitHub Actions!"
 
       - name: Show GitHub context
-        run: echo "Repository - ${{ github.repository }}
+        run: echo "Repository - ${{ github.repository }}"
         
       - name: Run bash script
         run: |
